@@ -1,0 +1,37 @@
+#navbar{
+    display: flex;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#img>img{
+    width: 100px;
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    padding: 15px;
+}
+#menu{
+    display: flex;
+    gap: 20px;
+}
+#fundraiser{
+   display: flex;
+   
+}
+
+#fundraiser>h2{
+    padding: 10px 40px 10px 40px;
+    background-color: #9c3353;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    border-radius: 30px;
+}
+.chalidManu{
+ padding: 5px 13px 8px 13px;
+ 
+ 
+}
+.chalidManu:hover{
+   
+    background-color: rgb(243, 242, 241);
+}
