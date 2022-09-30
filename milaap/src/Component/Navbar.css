@@ -8,6 +8,10 @@
     left: 0px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+#log{
+ margin-top: 18px;
+ margin-left: 60px;
+}
 #img>img{
     width: 100px;
     /* margin-top: 10px;
@@ -20,6 +24,10 @@
 }
 #fundraiser{
    display: flex;
+   justify-content: space-evenly;
+   
+   margin-left: 100px;
+   gap: 20px;
    
 }
 #main{
