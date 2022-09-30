@@ -1,6 +1,11 @@
 #navbar{
     display: flex;
     gap: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0px;
+    left: 0px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #img>img{
@@ -17,7 +22,26 @@
    display: flex;
    
 }
-
+#main{
+    background-color:#9c3353 ;
+    border-radius: 30px;
+    width: 95px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 22px;
+}
+#left{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -3px;
+    width: 35px;
+    
+    height: 35px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 #fundraiser>h2{
     padding: 10px 40px 10px 40px;
     background-color: #9c3353;
@@ -25,11 +49,18 @@
     margin-top: 10px;
     margin-bottom: 13px;
     border-radius: 30px;
+    
+}
+#fundraiser>h2:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .chalidManu{
  padding: 5px 13px 8px 13px;
  
  
+}
+#fundraiser:hover{
+    
 }
 .chalidManu:hover{
    

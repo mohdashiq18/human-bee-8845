@@ -47,8 +47,12 @@ const Navbar=()=>{
                     <h4>Contact Us</h4>
                     </div></Link>
            
-            <div class="chalidManu">
-                <h4>Home</h4>
+            <div >
+                <div id="main">
+                    {/* <p>IND</p> */}
+                    <div id='left'></div>
+                    <div id="right"></div>
+                </div>
             </div>
         </div>
        

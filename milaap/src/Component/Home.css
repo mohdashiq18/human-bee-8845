@@ -2,3 +2,73 @@
     background-color: #9c3353!important;
     color: #ffc1d3;
 }
+#div{
+    /* text-align: center; */
+    margin-top: 80px;
+  
+    background-image: url(https://cimages.milaap.org/milaap/image/upload/v1655996033/production/entity_details/milaap_page/524/Desktop_img_2__5__1655996032.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#get{
+    /* border: 1px solid black; */
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+#get>h4{
+    background-color: white;
+    padding: 12px 20px 12px 20px;
+    border-radius: 8px;
+    color: rgb(85, 81, 81);
+    border: 0px;
+    font-family: AvenirLTPro-Medium;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#content{
+    margin-left: 150px;
+    /* margin-top: 30px; */
+    /* border: 1px solid black; */
+    width: 50%;
+}
+#content>h4{
+    width: 40%;
+    padding: 10px 10px 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #9c3353;
+}
+#data{
+    display: flex;
+   gap: 40px;
+}
+#parsent{
+    margin-left: 150px;
+    /* border: 1px solid black; */
+    width: 60%;
+    gap: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    border-left: #9c3353 8px solid;
+    border-radius: 5px;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sec{
+    text-align: center;
+    margin-top: 50px;
+}
+#st{
+    opacity: .43;
+    font-family: AvenirLTPro-Medium;
+    font-size: 50px;
+    font-weight: 900;
+    color: #691a47;
+    position: absolute;
+    right: 400px;
+    padding-left: 5px;
+   
+}
