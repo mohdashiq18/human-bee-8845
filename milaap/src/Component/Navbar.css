@@ -40,6 +40,17 @@
     
     margin-top: 22px;
 }
+#ind{
+    color: white;
+    margin-top: 2px;
+    margin-left: 22px;
+}
+#usd{
+    color: white;
+    margin-top: 2px;
+    margin-left: 50px;
+    
+}
 #left{
     background-color: white;
     border-radius: 50%;
@@ -47,6 +58,22 @@
     margin-top: -3px;
     width: 35px;
     
+    height: 35px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#left:hover{
+    cursor: pointer;
+}
+#right:hover{
+    cursor: pointer;
+}
+#right{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -3px;
+    width: 35px;
+    margin-left: 60px;
     height: 35px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

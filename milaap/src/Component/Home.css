@@ -40,6 +40,10 @@
     color: white;
     background-color: #9c3353;
 }
+#content>h4:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 #data{
     display: flex;
    gap: 40px;
@@ -50,12 +54,18 @@
     width: 60%;
     gap: 10px;
     margin-top: 40px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     border-left: #9c3353 8px solid;
     border-radius: 5px;
-    
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#parsent>img{
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
 }
 #sec{
     text-align: center;
@@ -64,12 +74,13 @@
 #st{
     opacity: .43;
     font-family: AvenirLTPro-Medium;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 900;
     color: #691a47;
     position: absolute;
-    right: 400px;
-    padding-left: 5px;
+    right: 450px;
+    margin-top: 5px;
+    padding-left: 0px;
    
 }
 #dimond{
@@ -97,8 +108,8 @@
     height: 1px;
     background: #000;
     position: absolute;
-    left: 35%;
-    top: 121.5%;
+    left: 37.5%;
+    top: 111.3%;
 }
 #dimond::after{
     content: "";
@@ -108,8 +119,8 @@
     height: 1px;
     background: #000;
     position: absolute;
-    right: 35%;
-    top: 121.5%;
+    right: 37.5%;
+    top: 111.3%;
 }
 #dimond>#sec2{
     width: 18px;
@@ -288,7 +299,10 @@
 }
 #member{
     background-image: url(https://assets.milaap.org/packs/_/assets/images/home/testimonial-bg-703d695dffc4e175064a2bd22140a262.png);
-    
+    padding: 130px;
+    background-position: 100%;
+   background-repeat: no-repeat;
+   background-size: 100%;
 
 }
 #footer{
@@ -309,4 +323,64 @@
 #footer>div>h4>span{
     text-decoration: underline ;
    
+}
+#user{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+#pri{
+    margin-right: 100px;
+    background:none ;
+    border: 0px;
+    font-size: 20px;
+}
+#next{
+    margin-left: 30px;
+    background:none ;
+    border: 0px;
+    font-size: 20px;
+}
+#inuser{
+   
+    display: flex;
+    width: 50%;
+    padding: 30px 30px 30px 20px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+#inuser>h3{
+    margin-left: 20px;
+    text-align: justify;
+    margin-left: 70px;
+    /* padding: 20px; */
+    opacity: .5;
+    
+}
+#secuser{
+    position: absolute;
+    padding: 15px;
+    margin-left: -110px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 5px;
+}
+#secuser>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #691a47;
+}
+#rev{
+    text-align: center;
+    margin-top: 50px;
+}
+#rev>a{
+    color: #691a47;
+    font-size: 18px;
 }

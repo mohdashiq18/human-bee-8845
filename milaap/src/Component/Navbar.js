@@ -1,10 +1,11 @@
-
+import { useState } from "react"
 import React from "react"
 import './Navbar.css'
 import { Link } from "react-router-dom"
 
 
 const Navbar=()=>{
+ const [togel,setTogel]=useState(false)
    return (
     <>
      <nav id="navbar">
@@ -49,9 +50,11 @@ const Navbar=()=>{
            
             <div >
                 <div id="main">
+                    {!togel && <p id="ind">INR</p>}
                     {/* <p>IND</p> */}
-                    <div id='left'></div>
-                    <div id="right"></div>
+                   {togel &&  <div id='left' onClick={()=>setTogel(false)}></div>}
+                    {!togel && <div id="right" onClick={()=>setTogel(true)}></div>}
+                    {togel && <p id="usd">USD</p>}
                 </div>
             </div>
         </div>

@@ -1,8 +1,23 @@
-import React from "react"
+import React, { useState } from "react"
 import './Home.css'
 import { FaSearch ,FaPhone} from 'react-icons/fa'
 const Home=()=>
 {
+    const [count,setCount]=useState(0)
+    const userData=[{
+        img:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_100,w_100/v1598250884/production/testimonials/user-29_1598250882.jpg",
+        name:"Pushpa Aman Singh",
+        dis:"The best news for fundraising in India! Will surely promote this in our network. Anoj Viswanathan, what a fabulous Independence Day gift and perfect timing for #GivingTuesdayIndia #Daan Utsav campaigns!"
+    },
+
+   { img:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_42,w_42/v1599681095/production/testimonials/user-37_1599681093.jpg",
+    name:"Abhishek Gupta",
+    dis:"When you know you've been a part of something so big that it has changed someone's life. I urge you all to contribute to such organisation's campaigns. The amount doesn't matter. Your effort matters. You might end up saving someone's life. Milaap thank you for delivering this news"
+},
+{ img:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_42,w_42/v1594102144/production/testimonials/user__1__1594102143.jpg",
+name:"Bruised Soul",
+dis:"@milaapdotorg Thank you for facilitating me in helping my friend who we lost recently in a tragedy. Best wishes for all the future good you people are putting in together for the society."
+}]
     return (
         <>
         <div id="div">
@@ -220,8 +235,24 @@ Save GauMata from Lumpi Skin Disease 🙏</p></div>
                     <div id="sec2"></div>
                     <div id="tri"></div>
                 </div>
-                
+        <div id="user">
+        <button id="pri" onClick={()=>setCount(count-1<0? count-count:count-1)}>Privs</button>
+           <div id="inuser">
+           <div id="secuser">
+           
+           <img src={userData[count].img}/>
+           <p>{userData[count].name}</p>
+           </div>
+           <h3>{userData[count].dis}</h3>
+           </div>
+           <button id="next" onClick={()=>setCount(count+1>=userData.length? count-count:count+1)}>Next</button>
+           
+       </div>
+           
             </div>
+            <div id="rev">
+            <a href="#">​​See all reviews</a>
+           </div>
          </div>
          <div id="footer">
             <div>
@@ -250,7 +281,10 @@ Save GauMata from Lumpi Skin Disease 🙏</p></div>
                 <p>Thank you</p>
             </div>
          </div>
-
+       <div>
+ 
+       </div>
+       
            </>
             
       
