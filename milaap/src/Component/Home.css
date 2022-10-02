@@ -32,6 +32,40 @@
     /* border: 1px solid black; */
     width: 50%;
 }
+#icon{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    color: #691a47;
+    padding: 5px;
+    border: 1px solid #691a47;
+    border-radius: 50%;
+}
+#lasta{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 290px;
+    margin-left: 100px;
+    margin-top: 30px;
+   
+}
+#lastb{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 290px;
+    margin-left: 100px;
+    margin-top: 30px;
+   
+}
+#lasta>a{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #691a47;
+}
 #content>h4{
     width: 40%;
     padding: 10px 10px 10px 20px;
@@ -305,16 +339,79 @@
    background-size: 100%;
 
 }
+.mil{
+    margin-left: 40px;
+    font-size: 18px;
+    width: 500px;
+   
+}
+.fun{
+    margin-left: -100px;
+}
 #footer{
     display: flex;
     gap: 20px;
+    padding: 30px 0px 40px 0px;
+   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-#footer>div>div{
+#footer a{
+    color: #691a47;
+    font-size: 18px;
+    text-decoration: none;
+}
+#footer>:nth-child(1)>div,#lasta,#lastb{
     display: flex;
-    
+    /*   */
     gap: 10px;
 }
-#footer>div>div>img{
+#footer>div{
+    padding: 20px;
+}
+.logo{
+    width: 180px;
+    height: 50px;
+}
+#lastc{
+    display: grid;
+   padding: 20px;
+   
+}
+#lastc>p{
+    text-align: center;
+}
+#lastk{
+    text-align: center;
+    margin-top: -230px;
+   
+}
+#support{
+    margin-top: -60px;
+}
+#footerb{
+    background-color: rgba(176, 184, 192, 0.445);
+   border-radius: 0px 0px 0px 80px;
+   
+}
+#lastk>:nth-child(2){
+    margin-top: 10px;
+}
+#lastc>h3{
+    margin-top: -130px;
+    text-align: center;
+    color: #691a47;
+}
+#footerb>:nth-child(1)>img{
+    height: 300px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#footerb{
+    display: flex;
+    gap: 20px;
+}
+#footera>div>img{
     width: 30px;
     height: 30px;
     margin-top: 10px;
@@ -383,4 +480,11 @@
 #rev>a{
     color: #691a47;
     font-size: 18px;
+}
+#copyrt{
+    background-color: #000;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    color: white;
 }

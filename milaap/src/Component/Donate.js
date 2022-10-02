@@ -1,9 +1,12 @@
 import React from 'react'
-
+import './Donate.css'
 const Donate=()=>
 {
     return (
-        <h1>This is Donate Page</h1>
+        <div id='Ddiv'>
+            <h1>hello</h1>
+        </div>
+
     )
 }
 export default Donate
